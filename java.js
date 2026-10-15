@@ -1,4 +1,4 @@
-// Configuración de Supabase (reemplazar con las credenciales de tu proyecto)
+
 const SUPABASE_URL = 'https://qxzlggrepnepjjmsaccz.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF4emxnZ3JlcG5lcGpqbXNhY2N6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwNjczNzcsImV4cCI6MjEwNzY0MzM3N30.Et1hn0Ela9V5YapQ_TreHe-VsjUb9KUsjH3sJK7SdPA';
 
