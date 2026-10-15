@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muro de Mensajes Seguro - Tody</title>
+    <link rel="stylesheet" href="css.css">
+    <!-- SDK de Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Muro de Mensajes Comunitario</h1>
+            <div id="auth-section">
+                <div id="logged-out" class="hidden">
+                    <input type="email" id="email" placeholder="Correo electrónico">
+                    <input type="password" id="password" placeholder="Contraseña">
+                    <button id="btn-login">Iniciar Sesión</button>
+                    <button id="btn-register">Registrarse</button>
+                </div>
+                <div id="logged-in" class="hidden">
+                    <span id="user-info"></span>
+                    <button id="btn-logout">Cerrar Sesión</button>
+                </div>
+            </div>
+        </header>
+
+        <section id="posting-section" class="hidden">
+            <textarea id="message-input" placeholder="Escribe tu mensaje público..."></textarea>
+            <button id="btn-post">Publicar Mensaje</button>
+        </section>
+
+        <main>
+            <h2>Muro General</h2>
+            <div id="messages-container">
+                <!-- Los mensajes se cargarán dinámicamente -->
+            </div>
+        </main>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
